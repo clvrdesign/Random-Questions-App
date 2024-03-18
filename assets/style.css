@@ -116,12 +116,13 @@ body{
         align-items: center;
     }
 
-    header .logo{
+    header .logo a{
         width: 38px;
         display: flex;
         align-items: flex-end;
         font-weight: 600;
         color: var(--gray);
+        text-decoration: none;
     }
 
     header .theme{
